@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kaihopasu | Experience stories</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="./images/drone.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./images/drone.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"> 
+    <link href="./css/bootstrap.min.css" rel=stylesheet>
+    <script src="./js/jquery-3.2.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script lang="javascript">
+        $(document).ready(function () {
+            var hold = $('.holder')
+            for (var i = 0; i < hold.length; i++) {
+                var source = Math.floor(Math.random() * hold.length - 1) + 1;
+                var tar = Math.floor(Math.random() * hold.length - 1) + 1;
+                hold.eq(source).before(hold.eq(tar));
+            }
+        });
+    </script>
+    <style>
+        body{
+            font-family: 'Rubik', sans-serif;
+            font-size: 18px;
+        }
+        .holder{
+            background-color: #d5d3d0;
+            border-radius: 25px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Container (The Band Section) -->
+    <div class="container text-center">
+        <br>
+        <h1>Experience Stories</h1>
+        <br>
+        <!--Shyaam-->
+
+        <div class="row holder">
+            <div class="col-sm-2">
+                <p><em> Shyaamlal N N</em>
+
+                    <img src="images/Keikaku Chimu/Shyaamlal.jpg" class="img-circle person" alt="Shyaamlal" width="175" height="175">
+
+                </p>
+
+            </div>
+
+            <div class="col-sm-10" class="">
+                <br>
+                <p>Working in KP has been a great opportunity and a magnificent learning journey, both personally and professionally.
+                    Is there anything better than working with your friends on a cause you like? I would let you answer that
+                    question ;) KP has provided a platform where I can learn, create and test out any passion project that
+                    I'm interested in. The team has really top notch folks and interacting with the members is an incredible
+                    and easy way to see how bright minds work. I am able to see how operating in KP is helping me see my
+                    strengths and weaknesses, and, provides short loops to receive feedback on my blindspots. People keep
+                    talking about agile work culture and paradigm shifts these days, though I'm not sure how many organizations
+                    truly implement the philosophy of being truly agile. From the little I know, KP is amazingly agile and
+                    anyone who is committed to put the work and align to our values, it's gonna be a treat.</p>
+
+            </div>
+            <hr class="fancy-line"></hr>
+        </div>
+
+
+        <!--Priyal-->
+
+        <div class="row holder">
+            <div class="col-sm-2">
+                <p><em> Priyal G</em>
+
+                    <img src="images/Keikaku Chimu/Priyal.jpg" class="img-circle person" alt="Shyaamlal" width="175" height="175">
+
+
+                </p>
+
+            </div>
+
+            <div class="col-sm-10" class="">
+                <br>
+                <p>Being a teacher a quote that always has stayed with me is "Experience is the teacher of all things". I strongly
+                    believe in this and the past 8 months in KP have been similar. While trying to understand how I could
+                    contribute to the project and experimenting with different things I have learnt a lot on the way about
+                    myself, about how much of a difference we could make through technology for our vision for children.
+                    I also have understood team dynamics with my interactions with diverse individuals. KP is a space where
+                    I can be the way I like being that is just open to learning at every point of time.
+                </p>
+
+            </div>
+            <hr class="fancy-line"></hr>
+        </div>
+</body>
+
+</html>

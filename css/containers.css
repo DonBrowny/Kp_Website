@@ -1,0 +1,20 @@
+.container-header1{
+    background: #e5e2de;
+    min-height: 600px;
+    padding: 5em;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container-header2{
+    background: #4abdac;
+    min-height: 600px;
+    padding: 5em;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.top-margin{
+    margin-top:50px 
+}
