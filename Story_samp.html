@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Create by → Hellcat
+            to gnerate random story based on user-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./images/drone.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <!--create two new folders as css and js on the same directory and paste the 
+            bootstrap , Jqery 3.2.0 min files into it-->
+    <link href="./css/bootstrap.min.css" rel=stylesheet>
+    <script src="./js/jquery-3.2.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--create a file named custom.js inside js folder and paste the doc code into it-->
+
+    <script src="./js/custom.js"></script>
+    <style>
+        /*all the div to show the story must have this class cards*/
+
+
+        .cards {
+            padding: 5px;
+            border-radius: 8px;
+        }
+
+
+        hr.lineStyle {
+            height: 10px;
+            border: 0;
+            box-shadow: 0 10px 10px -10px #8c8b8b inset;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="button" id="btn1" onclick="btnClick();" value="Click Me!" />
+    <div id="storyContainer" class="container" style="color: white">
+        <div class="row cards">
+            <div class="col-md-12" style="height: 80px; background-color: #00ffff">Strory 1</div>
+            <hr class="lineStyle">
+        </div>
+        <div class="row cards">
+            <div class="col-md-12" style="height: 80px; background-color: #473b40">Strory 2</div>
+            <hr class="lineStyle">
+        </div>
+        <div class="row cards">
+            <div class="col-md-12" style="height: 80px; background-color: #c741f4">Strory 3</div>
+            <hr class="lineStyle">
+        </div>
+        <div class="row cards">
+            <div class="col-md-12" style="height: 80px; background-color: #f4bb41">Strory 4</div>
+            <hr class="lineStyle">
+        </div>
+        <hr class="lineStyle">
+    </div>
+</body>
+
+</html>
